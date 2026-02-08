@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/Bhoomi%20R%20Butkar/Desktop/Women%20safety.html#sos -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>स्त्रीSHAKTI – Women Safety App</title>
+  <link href="./स्त्रीSHAKTI – Women Safety App_files/css2" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:#fff;color:#333;line-height:1.6}
+    header{background:linear-gradient(135deg,#ff4d6d,#ff758f);color:#fff;padding:60px 20px;text-align:center}
+    header h1{font-size:3rem}
+    header p{font-size:1.1rem;margin-top:10px}
+    .btn{display:inline-block;margin:15px 10px;padding:12px 25px;background:#fff;color:#ff4d6d;border-radius:30px;text-decoration:none;font-weight:600}
+    section{padding:60px 10%}
+    h2{text-align:center;margin-bottom:40px;color:#ff4d6d}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+    .card{background:#f9f9f9;padding:25px;border-radius:15px;box-shadow:0 8px 20px rgba(0,0,0,0.05)}
+    .card h3{color:#ff4d6d;margin-bottom:10px}
+    .sos{background:#ff4d6d;color:#fff;text-align:center;padding:60px 20px}
+    .sos button{font-size:1.5rem;padding:25px 50px;border:none;border-radius:50%;background:#fff;color:#ff4d6d;font-weight:700;cursor:pointer}
+    footer{background:#222;color:#bbb;text-align:center;padding:20px;font-size:0.9rem}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>स्त्रीSHAKTI</h1>
+  <p>Empowering Women with Technology, Safety &amp; Strength</p>
+  <a class="btn" href="file:///C:/Users/Bhoomi%20R%20Butkar/Desktop/Women%20safety.html#features">Features</a>
+  <a class="btn" href="file:///C:/Users/Bhoomi%20R%20Butkar/Desktop/Women%20safety.html#sos">Emergency SOS</a>
+</header>
+
+<section id="contacts">
+  <h2>📇 Emergency Contacts (Offline Supported)</h2>
+  <p>Save trusted contacts. Calls &amp; SMS work even without internet.</p>
+  <br>
+  <input type="text" id="cname" placeholder="Contact Name">
+  <input type="tel" id="cphone" placeholder="Phone Number">
+  <button onclick="saveContact()">Save Contact</button>
+
+  <ul id="contactList" style="margin-top:20px"><li><strong>Papa</strong> - 9820178512
+      <br>
+      <a href="tel:9820178512">📞 Call</a> |
+      <a href="sms:9820178512?body=SOS!%20I%20am%20in%20danger.%20Please%20help%20me.">📩 SMS</a></li><li><strong>Mummy</strong> - 9769829437
+      <br>
+      <a href="tel:9769829437">📞 Call</a> |
+      <a href="sms:9769829437?body=SOS!%20I%20am%20in%20danger.%20Please%20help%20me.">📩 SMS</a></li></ul>
+</section>
+
+<section id="features">
+  <h2>Core Safety Features</h2>
+  <div class="grid">
+    <div class="card"><h3>🚨 Emergency SOS</h3><p>One-tap SOS sends GPS location &amp; alerts trusted contacts with countdown cancel option.</p></div>
+    <div class="card"><h3>📍 Real-Time Tracking</h3><p>Live GPS tracking shared securely with trusted contacts.</p></div>
+    <div class="card"><h3>📞 Auto Call (112)</h3><p>Instant call to Indian emergency services with one tap.</p></div>
+    <div class="card"><h3>🎥 Audio &amp; Video Evidence</h3><p>Automatic recording during emergencies for legal proof.</p></div>
+    <div class="card"><h3>🔊 Panic Alarm</h3><p>Loud siren to attract attention and scare attackers.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>AI Powered &amp; Unique Features</h2>
+  <div class="grid">
+    <div class="card"><h3>🤖 AI Threat Detection</h3><p>Detects shouting, violence sounds &amp; auto-triggers alerts.</p></div>
+    <div class="card"><h3>🏃 Movement-Based Alerts</h3><p>Detects falling, running or forceful movement using sensors.</p></div>
+    <div class="card"><h3>🎙 Voice Activated SOS</h3><p>Say "Help Me" to trigger SOS – even on lock screen.</p></div>
+    <div class="card"><h3>📱 Fake Call</h3><p>Simulated incoming call to escape unsafe situations.</p></div>
+    <div class="card"><h3>🗺 Safe Route Planner</h3><p>Suggests safest path based on lighting, crowd &amp; time.</p></div>
+    <div class="card"><h3>👥 Community Watch</h3><p>Users mark unsafe zones – displayed as live heatmaps.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Support &amp; Non‑Emergency Tools</h2>
+  <div class="grid">
+    <div class="card"><h3>💬 Emotional Support</h3><p>Live chat with trained counsellors &amp; volunteers.</p></div>
+    <div class="card"><h3>📔 Incident Journal</h3><p>Log incidents with notes, images, time &amp; location.</p></div>
+    <div class="card"><h3>⚖ Legal Help &amp; Helplines</h3><p>Know your rights &amp; access emergency helplines easily.</p></div>
+    <div class="card"><h3>⏱ Health Check‑In</h3><p>Timed safety check‑ins with auto alerts.</p></div>
+    <div class="card"><h3>🏫 Work/School Safety</h3><p>Linked alerts to organizations for student &amp; employee safety.</p></div>
+    <div class="card"><h3>⌚ Wearable Integration</h3><p>Trigger SOS via smartwatch or Bluetooth device.</p></div>
+  </div>
+</section>
+
+<section class="sos" id="sos">
+  <h2>Live Location &amp; Offline Emergency System</h2>
+  <p>Your live location is tracked and shared. Messages &amp; calls are queued if offline.</p><br>
+  <button onclick="startTracking()">Start Live Tracking</button>
+  <button onclick="sendEmergency()" style="margin-left:20px">Send SOS</button>
+  <p id="status" style="margin-top:20px"></p>
+</section>
+
+<script>
+let watchId;
+
+function startTracking(){
+  if(navigator.geolocation){
+    watchId = navigator.geolocation.watchPosition(pos => {
+      const lat = pos.coords.latitude;
+      const lon = pos.coords.longitude;
+      document.getElementById('status').innerText = `Live Location: ${lat}, ${lon}`;
+      localStorage.setItem('lastLocation', JSON.stringify({lat, lon, time: new Date()}));
+    }, err => alert('Location error'), {enableHighAccuracy:true});
+  } else {
+    alert('Geolocation not supported');
+  }
+}
+
+function sendEmergency(){
+  const online = navigator.onLine;
+  if(online){
+    alert('SOS sent to Police (112) & Trusted Contacts with live location');
+  } else {
+    localStorage.setItem('pendingSOS','true');
+    alert('You are offline. SOS will be sent automatically when internet is available.');
+  }
+}
+
+window.addEventListener('online', () => {
+  if(localStorage.getItem('pendingSOS')){
+    alert('Internet restored. Sending queued SOS to Police & Contacts.');
+    localStorage.removeItem('pendingSOS');
+  }
+});
+
+
+// GOOGLE MAPS LIVE VIEW (Demo)
+function loadMap(){
+  const mapFrame = document.getElementById('mapFrame');
+  if(mapFrame){
+    mapFrame.src = "https://maps.google.com/maps?q=19.0760,72.8777&z=15&output=embed";
+  }
+}
+
+// VOICE ACTIVATED SOS (Demo)
+if('webkitSpeechRecognition' in window){
+  const rec = new webkitSpeechRecognition();
+  rec.continuous = true;
+  rec.lang = 'en-IN';
+  rec.onresult = e => {
+    const text = e.results[e.results.length-1][0].transcript.toLowerCase();
+    if(text.includes('help me')){
+      alert('Voice SOS Activated!');
+      sendEmergency();
+    }
+  };
+  rec.start();
+}
+
+</script>
+
+<section>
+  <h2>🗺 Live Map Tracking</h2>
+  <p>Live location shared with police &amp; trusted contacts.</p><br>
+  <iframe id="mapFrame" width="100%" height="300" style="border:0;border-radius:15px" loading="lazy" src="./स्त्रीSHAKTI – Women Safety App_files/saved_resource.html"></iframe>
+  <br><br>
+  <button onclick="loadMap()">Load Live Map</button>
+</section>
+
+<section>
+  <h2>💬 Emergency Chat System</h2>
+  <div class="grid">
+    <div class="card"><h3>👮 Police Chat</h3><p>Direct chat with nearest police control room.</p></div>
+    <div class="card"><h3>👨‍👩‍👧 Trusted Contacts</h3><p>Group chat with relatives &amp; friends.</p></div>
+  </div>
+  <p style="margin-top:20px">Messages auto-queue if offline &amp; send when internet returns.</p>
+</section>
+
+<footer>
+  <p>© 2026 स्त्रीSHAKTI | Women Safety Platform | Made with ❤️ in India</p>
+</footer>
+
+<script>
+// Save Emergency Contact (Offline - LocalStorage)
+function saveContact(){
+  const name = document.getElementById('cname').value;
+  const phone = document.getElementById('cphone').value;
+  if(!name || !phone){ alert('Enter details'); return; }
+
+  let contacts = JSON.parse(localStorage.getItem('contacts')) || [];
+  contacts.push({name, phone});
+  localStorage.setItem('contacts', JSON.stringify(contacts));
+  loadContacts();
+}
+
+function loadContacts(){
+  const list = document.getElementById('contactList');
+  list.innerHTML = '';
+  let contacts = JSON.parse(localStorage.getItem('contacts')) || [];
+
+  contacts.forEach(c => {
+    const li = document.createElement('li');
+    li.innerHTML = `<strong>${c.name}</strong> - ${c.phone}
+      <br>
+      <a href="tel:${c.phone}">📞 Call</a> |
+      <a href="sms:${c.phone}?body=SOS! I am in danger. Please help me.">📩 SMS</a>`;
+    list.appendChild(li);
+  });
+}
+
+window.onload = loadContacts;
+</script>
+
+
+</body></html>
